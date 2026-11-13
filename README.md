@@ -1,5 +1,4 @@
-# mc-bot
-This is a Minecraft bot for 1.20.1 read the MD file for instructions:
+
 # 🤖 Ollama Minecraft Bot
 
 > **⚠️**  This project was completely vibecoded. Feel free to make whatever changes you want to it for your own use, but please do not repost this repository.
