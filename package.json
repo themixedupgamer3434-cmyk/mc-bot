@@ -1,0 +1,21 @@
+{
+  "name": "ollama-minecraft-bot",
+  "version": "1.0.0",
+  "description": "Autonomous Minecraft 1.20.1 bot (mineflayer) whose brain is a local Ollama model using tool calling.",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "mineflayer": "^4.20.0",
+    "mineflayer-armor-manager": "^2.0.1",
+    "mineflayer-collectblock": "^1.4.1",
+    "mineflayer-pathfinder": "^2.4.5",
+    "mineflayer-pvp": "^1.3.2",
+    "ollama": "^0.5.0"
+  }
+}

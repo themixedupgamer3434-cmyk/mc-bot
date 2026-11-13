@@ -1,0 +1,39 @@
+{
+  "minecraft": {
+    "host": "localhost",
+    "port": 25565,
+    "username": "OllamaBot",
+    "auth": "offline",
+    "version": "1.20.1"
+  },
+  "ollama": {
+    "host": "http://127.0.0.1:11434",
+    "model": "llama3.1",
+    "temperature": 0.5,
+    "numCtx": 8192,
+    "maxToolRounds": 4,
+    "requestTimeoutMs": 90000,
+    "keepAlive": "30m"
+  },
+  "chat": {
+    "maxLength": 256,
+    "maxChunks": 3,
+    "historySize": 10,
+    "sendDelayMs": 1200,
+    "requireMention": false,
+    "allowedPlayers": [],
+    "greeting": "Hi! I'm online. Talk to me in chat and tell me what to do."
+  },
+  "bot": {
+    "autoEatBelow": 15,
+    "canDig": true,
+    "allowAttackPlayers": false,
+    "mineSearchRadius": 48,
+    "attackSearchRadius": 32,
+    "equipIntervalMs": 60000
+  },
+  "reconnect": {
+    "baseDelayMs": 5000,
+    "maxDelayMs": 60000
+  }
+}
